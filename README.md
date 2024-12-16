@@ -3,6 +3,7 @@
 > The repo was created while I was working on technical assignment
 
 ## Demo
+https://product-catalog-frontend-omega.vercel.app
 
 ## Installation
 Make sure you have environment setup properly. You will need Node.js.
