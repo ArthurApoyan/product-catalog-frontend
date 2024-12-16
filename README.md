@@ -1,8 +1,14 @@
-# React + Vite
+# Product Catalog Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> The repo was created while I was working on technical assignment
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+Make sure you have environment setup properly. You will need Node.js.
+
+1. Download the project (or clone using GIT)
+2. Copy `.env.example` into `.env` and adjust the `VITE_API_BASE_URL` parameter
+3. Navigate to the project's root directory using terminal
+4. Run `npm install`
+5. Run `npm run dev` to start vite server for React parameter
