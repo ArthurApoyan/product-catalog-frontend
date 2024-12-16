@@ -1,5 +1,5 @@
 import { createApi } from '@reduxjs/toolkit/query/react'
-import { customBaseQuery } from "src/customBaseQuery.js";
+import { customBaseQuery } from "../../../../customBaseQuery.js";
 
 export const productsApi = createApi({
     reducerPath: 'productsApi',

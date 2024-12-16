@@ -3,7 +3,7 @@ import {store} from "./store/store.js";
 import {BrowserRouter} from "react-router-dom";
 import AppRouter from "./router/AppRouter.jsx";
 import {ChakraProvider} from "@chakra-ui/react";
-import {Toast} from "src/components/Toast.jsx";
+import {Toast} from "./components/Toast.jsx";
 import {useEffect} from "react";
 
 function App() {

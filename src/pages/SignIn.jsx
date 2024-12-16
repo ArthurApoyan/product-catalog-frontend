@@ -1,7 +1,7 @@
 import {Box, Input, FormControl, FormLabel, FormErrorMessage, Button, Text, Flex} from "@chakra-ui/react";
 import {Controller, useForm} from "react-hook-form";
 import {Link, useNavigate} from "react-router-dom";
-import {useSignInMutation} from "src/store/features/auth/authAPI/authAPI.js";
+import {useSignInMutation} from "../store/features/auth/authAPI/authAPI.js";
 
 const SignUp = () => {
 

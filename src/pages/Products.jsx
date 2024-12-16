@@ -1,16 +1,16 @@
 import {useEffect, useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {Box, Image, Text, HStack, IconButton, Badge, SimpleGrid, Flex} from "@chakra-ui/react";
-import {useLazyGetAllProductsQuery} from "src/store/features/products/productsApi/productsApi.js";
-import {productsSelector} from "src/store/features/reduxSelectors.js";
-import ContentLoader from "src/components/ContentLoader.jsx";
-import Categories from "src/components/Categories.jsx";
+import {useLazyGetAllProductsQuery} from "../store/features/products/productsApi/productsApi.js";
+import {productsSelector} from "../store/features/reduxSelectors.js";
+import ContentLoader from "../components/ContentLoader.jsx";
+import Categories from "../components/Categories.jsx";
 import { AddIcon, MinusIcon } from "@chakra-ui/icons";
 import {
     setBagQTY,
     setCategory, setPattern,
-} from "src/store/features/products/productsSlice/productsSlice.js";
-import SearchInput from "src/components/SearchInput.jsx";
+} from "../store/features/products/productsSlice/productsSlice.js";
+import SearchInput from "../components/SearchInput.jsx";
 
 const Products = () => {
 

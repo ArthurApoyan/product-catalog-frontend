@@ -9,7 +9,7 @@ import {
 } from "@chakra-ui/react";
 import { SearchIcon } from "@chakra-ui/icons";
 import { useSelector } from "react-redux";
-import { productsSelector } from "src/store/features/reduxSelectors.js";
+import { productsSelector } from "../store/features/reduxSelectors.js";
 import { useState } from "react";
 
 const SearchInput = ({ onSearch }) => {

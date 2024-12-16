@@ -1,5 +1,5 @@
 import {Outlet} from "react-router-dom";
-import DefaultHeader from "src/components/DefaultHeader.jsx";
+import DefaultHeader from "../components/DefaultHeader.jsx";
 
 const DefaultLayout = () => {
     return (

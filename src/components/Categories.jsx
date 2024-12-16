@@ -1,9 +1,9 @@
 import {Box, Button, Flex, Text} from "@chakra-ui/react";
-import {useGetAllCategoriesQuery} from "src/store/features/products/productsApi/productsApi.js";
-import ContentLoader from "src/components/ContentLoader.jsx";
+import {useGetAllCategoriesQuery} from "../store/features/products/productsApi/productsApi.js";
+import ContentLoader from "../components/ContentLoader.jsx";
 import {useDispatch, useSelector} from "react-redux";
-import {setCategory} from "src/store/features/products/productsSlice/productsSlice.js";
-import {productsSelector} from "src/store/features/reduxSelectors.js";
+import {setCategory} from "../store/features/products/productsSlice/productsSlice.js";
+import {productsSelector} from "../store/features/reduxSelectors.js";
 
 const Categories = () => {
 

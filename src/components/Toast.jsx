@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useToast } from "@chakra-ui/react";
-import { clearToast } from "src/store/features/toast/toastSlice";
-import { toastSelector } from "src/store/features/reduxSelectors.js";
+import { clearToast } from "../store/features/toast/toastSlice";
+import { toastSelector } from "../store/features/reduxSelectors.js";
 
 let id;
 

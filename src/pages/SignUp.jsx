@@ -2,8 +2,8 @@ import {useDispatch} from "react-redux";
 import {Controller, useForm} from "react-hook-form";
 import {Link, useNavigate} from "react-router-dom";
 import {Box, Input, FormControl, FormLabel, FormErrorMessage, Button, Text, Flex} from "@chakra-ui/react";
-import {useSignUpMutation} from "src/store/features/auth/authAPI/authAPI.js";
-import { showToast } from 'src/store/features/toast/toastSlice.js';
+import {useSignUpMutation} from "../store/features/auth/authAPI/authAPI.js";
+import { showToast } from '../store/features/toast/toastSlice.js';
 
 const SignUp = () => {
 

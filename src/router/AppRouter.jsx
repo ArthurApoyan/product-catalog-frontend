@@ -1,14 +1,14 @@
 import {useEffect} from "react";
 import {useDispatch} from "react-redux";
 import {Navigate, Route, Routes, useLocation, useNavigate} from "react-router-dom";
-import useAccessToken from "src/hooks/useAccessToken.js";
-import DefaultLayout from "src/layouts/DefaultLayout.jsx";
-import GuestLayout from "src/layouts/GuestLayout.jsx";
-import Products from "src/pages/Products.jsx";
-import SignUp from "src/pages/SignUp.jsx";
-import SignIn from "src/pages/SignIn.jsx";
-import Bag from "src/pages/Bag.jsx";
-import {setBagQTY} from "src/store/features/products/productsSlice/productsSlice.js";
+import useAccessToken from "../hooks/useAccessToken.js";
+import DefaultLayout from "../layouts/DefaultLayout.jsx";
+import GuestLayout from "../layouts/GuestLayout.jsx";
+import Products from "../pages/Products.jsx";
+import SignUp from "../pages/SignUp.jsx";
+import SignIn from "../pages/SignIn.jsx";
+import Bag from "../pages/Bag.jsx";
+import {setBagQTY} from "../store/features/products/productsSlice/productsSlice.js";
 
 const AppRouter = () => {
 

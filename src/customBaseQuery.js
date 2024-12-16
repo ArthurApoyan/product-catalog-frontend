@@ -1,4 +1,4 @@
-import axiosClient from "src/axios-client.js";
+import axiosClient from "../src/axios-client.js";
 
 export const customBaseQuery = async ({ url, method, data }) => {
     try {

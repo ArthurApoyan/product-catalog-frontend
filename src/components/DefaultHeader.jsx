@@ -1,9 +1,9 @@
 import {Box, Link as ChakraLink, HStack, Button, Flex} from "@chakra-ui/react";
 import {Link, useLocation, useNavigate} from "react-router-dom";
-import {useLogoutMutation} from "src/store/features/auth/authAPI/authAPI.js";
+import {useLogoutMutation} from "../store/features/auth/authAPI/authAPI.js";
 import {useDispatch, useSelector} from "react-redux";
-import {productsSelector} from "src/store/features/reduxSelectors.js";
-import {setCategory, setPattern} from "src/store/features/products/productsSlice/productsSlice.js";
+import {productsSelector} from "../store/features/reduxSelectors.js";
+import {setCategory, setPattern} from "../store/features/products/productsSlice/productsSlice.js";
 
 const DefaultHeader = () => {
 
