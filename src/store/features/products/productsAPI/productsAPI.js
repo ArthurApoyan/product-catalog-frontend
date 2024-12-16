@@ -1,8 +1,8 @@
 import { createApi } from '@reduxjs/toolkit/query/react'
 import { customBaseQuery } from "../../../../customBaseQuery.js";
 
-export const productsApi = createApi({
-    reducerPath: 'productsApi',
+export const productsAPI = createApi({
+    reducerPath: 'productsAPI',
     baseQuery: customBaseQuery,
     endpoints: (builder) => ({
         getAllProducts: builder.query({
@@ -43,4 +43,4 @@ export const {
     useLazyGetAllProductsQuery,
     useGetBagProductsMutation,
     useGetAllCategoriesQuery,
-} = productsApi;
+} = productsAPI;

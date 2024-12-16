@@ -1,5 +1,5 @@
 import {Box, Button, Flex, Text} from "@chakra-ui/react";
-import {useGetAllCategoriesQuery} from "../store/features/products/productsApi/productsApi.js";
+import {useGetAllCategoriesQuery} from "../store/features/products/productsAPI/productsAPI.js";
 import ContentLoader from "../components/ContentLoader.jsx";
 import {useDispatch, useSelector} from "react-redux";
 import {setCategory} from "../store/features/products/productsSlice/productsSlice.js";

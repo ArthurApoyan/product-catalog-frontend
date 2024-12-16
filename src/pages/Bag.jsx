@@ -10,7 +10,7 @@ import {
     Text,
     useDisclosure
 } from "@chakra-ui/react";
-import {useGetBagProductsMutation} from "../store/features/products/productsApi/productsApi.js";
+import {useGetBagProductsMutation} from "../store/features/products/productsAPI/productsAPI.js";
 import ContentLoader from "../components/ContentLoader.jsx";
 import SuccessfulOrderPopUp from "../components/SuccessfulOrderPopUp.jsx";
 import {useNavigate} from "react-router-dom";

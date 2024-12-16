@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {Box, Image, Text, HStack, IconButton, Badge, SimpleGrid, Flex} from "@chakra-ui/react";
-import {useLazyGetAllProductsQuery} from "../store/features/products/productsApi/productsApi.js";
+import {useLazyGetAllProductsQuery} from "../store/features/products/productsAPI/productsAPI.js";
 import {productsSelector} from "../store/features/reduxSelectors.js";
 import ContentLoader from "../components/ContentLoader.jsx";
 import Categories from "../components/Categories.jsx";
