@@ -6,7 +6,7 @@ import {useSignInMutation} from "../store/features/auth/authAPI/authAPI.js";
 const SignUp = () => {
 
     const { control, handleSubmit, formState: { errors: err }, } = useForm();
-    const [signIn] = useSignInMutation();
+    const [signIn, { isLoading }] = useSignInMutation();
     const navigate = useNavigate();
 
     const onSubmit = async (data) => {
@@ -22,7 +22,7 @@ const SignUp = () => {
     }
 
     return (
-        <Box maxWidth="400px" m="auto" p={6} border="1px solid #14142B" borderRadius="md" bg="white" mt="50px">
+        <Box maxWidth="400px" m="auto" p={6} border="1px solid #14142B" borderRadius="md" bg="white" mt="100px">
             <Box textAlign="center" fontWeight={500}>Sign In</Box>
             <form onSubmit={handleSubmit(onSubmit)}>
                 {[
@@ -65,7 +65,7 @@ const SignUp = () => {
                     mt={6}
                     _hover={{ bg: "teal.600" }}
                 >
-                    Submit
+                    { isLoading ? "Loading..." : "Sign In" }
                 </Button>
                 <Flex width="full" justifyContent="center" gap="8px" mt="16px">
                     Do not have an account?

@@ -10,7 +10,7 @@ const SignUp = () => {
     const { control, handleSubmit, formState: { errors: err }, } = useForm();
     const navigate = useNavigate();
     const dispatch = useDispatch();
-    const [signUp] = useSignUpMutation();
+    const [signUp, { isLoading }] = useSignUpMutation();
 
     const onSubmit = async (data) => {
         try {
@@ -76,7 +76,7 @@ const SignUp = () => {
                     mt={6}
                     _hover={{ bg: "teal.600" }}
                 >
-                    Submit
+                    { isLoading ? "Loading..." : "Sign Up" }
                 </Button>
                 <Flex width="full" justifyContent="center" gap="8px" mt="16px">
                     Have an account?
